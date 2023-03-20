@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- toastify css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <!-- Custom homepage css -->
+    <link rel="stylesheet" href="styles/stylehome.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand text-white  border border-secondary px-3 py-2 text-center btn btn-danger"
+                    href="#">Home Page</a>
+
+                <div id="userName" class="text-white "></div>
+
+                <div class="text-center">
+                    <ul class="navbar-nav me-auto mb-lg-0">
+                        <li class="nav-item">
+                            <a href="index.html"
+                                class="text-white text-decoration-none border border-secondary px-3 py-2 text-center btn btn-danger fw-bold">Login
+                                Page</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="py-4">
+            <div class="container">
+                <!-- <div class="row mb-4 mb-md-5">
+                    <div class="col">
+                        <h3 class="text-center">Chapter # 15 - 20 | Array: It's Methods &amp; for loops</h3>
+                        <div class="border-bottom mt-4 border-secondary"></div>
+                    </div>
+                </div> -->
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-3 mb-md-0">
+                        <h4 class="text-center">Input</h4>
+                        <div class="border border-secondary rounded-3 p-4 d-flex align-items-center">
+                            <div class="input-group">
+                                <input type="text" class="form-control form-control-lg bg-transparent"
+                                    placeholder="Type your text here" id="inputgroup">
+                                <button class="btn btn-outline-secondary" id="clearInput">Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h4 class="text-center">Orignal String</h4>
+                        <div class="border border-secondary rounded-3 p-4 orignalstring">
+                            <div id="orignalstring" class="text-center text-white">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row mt-5">
+                    <div class="col-12 col-md-6 mb-4 mb-md-0">
+                        <h4 class="text-center">Buttons</h4>
+                        <div class="buttons border border-secondary rounded-3 p-4 text-center">
+
+                            <button class="btn btn-danger mb-2" onclick="printAllCities()">Print All Cities</button>
+                            <button class="btn btn-danger mb-2" onclick="addCityInList()">Add Your Ciyt In List</button>
+                            <button class="btn btn-danger mb-2" onclick="checkCityInList()">Check Your Ciyt In
+                                List</button>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h4 class="text-center">Output / Result</h4>
+                        <div class="border border-secondary rounded-3 p-4 text-center" style="min-height:96px">
+                            <div id="output">
+
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-outline-dark mt-3" id="clearoutputbutton">Clear Output</button>
+                        </div>
+
+                    </div>
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center text-white m-0 py-3">&copy; copyrights 2023.All Rights Reserved | design by
+                        Hasnain Raza</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- toastify js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom js -->
+    <script src="js/scripthome.js"></script>
+</body>
+
+</html>
